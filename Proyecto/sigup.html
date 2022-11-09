@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="pyt.css">
+  <link rel="stylesheet" href="sigup.css">
+  <title>Document</title>
+</head>
+<body>
+<div id="all">
+
+  <div>
+    <nav class="navbar navbar-expand-lg " id="nav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="img\logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top"></a>
+        <a class="navbar-brand text-light" href="pyt.html">PERRON</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">razas</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="pastor.html">PASTOR ALEMAN</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="cane.html">CANE</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="husky.html">HUSKY</a></li>
+              </ul>
+            </li>
+
+            <div id="su">
+              <li class="nav-item">
+              <a class="nav-link text-light" href="#">SIGN UP</a>
+            </li>
+
+      </div>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- multistep form  id="msform"-->
+  <form id="msform" class="needs-validation" novalidate>
+
+  <!-- fieldsets -->
+    <fieldset>
+      <h2 class="fs-title">Crea tu perfil </h2>
+
+      <div>
+        <input type="text" id="nam" required placeholder="Ingresa su nombre completo" />
+        <div class="valid-feedback"></div>
+        <div class="invalid-feedback">
+          Porfavor ingresar su nombre
+        </div>
+      </div>
+
+      <div>
+        <input type="text" name="email" placeholder="Email" required />
+        <div class="valid-feedback"></div>
+        <div class="invalid-feedback">
+          Porfavor ingrese su correo electronico
+        </div>
+      </div>
+
+      <div>
+        <input type="password" name="pass" placeholder="Contraseña" required />
+        <div class="valid-feedback"></div>
+        <div class="invalid-feedback">
+          Porfavor ingresar una contraseña
+        </div>
+      </div>
+
+      <div>
+        <input type="password" name="cpass" placeholder="Confirmar Contraseña" required />
+        <div class="valid-feedback"></div>
+        <div class="invalid-feedback">
+          Porfavor repetir su contreña
+        </div>
+      </div>
+
+      <button type="submit">next</button>
+
+    </fieldset>
+  </form>
+</div>
+
+  <script src="pyt.js"></script>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  
+</body>
+</html>
+

@@ -1,0 +1,41 @@
+#all{
+    background-image:url(img\patas.jpg);
+}
+
+#car{
+    margin-top: 50px;
+}
+
+#car1{
+    width: 452px;
+    margin-left: 150px;
+}
+
+#car2{
+    margin-left: 150px;
+    width: 451px;
+}
+
+#car3{
+    margin-left: 150px;
+    margin-top: 55px;
+    width: 1050px;
+}
+
+#pp{
+    width: 450px;
+    height: 250px;
+}
+
+#sa{
+    width: 450px;
+    height: 250px;
+}
+
+#su{
+    margin-left: 995px;
+}
+
+#nav{
+    background-color: blueviolet;
+}

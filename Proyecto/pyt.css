@@ -1,0 +1,46 @@
+#all{
+    background-image: url(img/patas.jpg);
+}
+
+#nav{
+    background-color: blueviolet;
+}
+#pastor{
+    width: 800px;
+    height: 450px;
+}
+
+#cane{
+    width: 800px;
+    height: 450px;
+}
+
+#hus{
+    width: 800px;
+    height: 450px;
+}
+
+#carusel{
+    margin-top: 100px;
+    margin-left: 280px;
+    width: 800px;
+    height: 350px;
+}
+
+#car1{
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+    width: 1060px;
+}
+
+#car2{
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    width: 1060px;
+}
+
+#su{
+    margin-left: 995px;
+}
